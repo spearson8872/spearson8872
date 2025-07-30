@@ -28,12 +28,12 @@ print("after  dir")
 ####################
 
 print("Before os.listdir")
-exit(0)
+#exit(0)
 import os
-# s.chdir("c:\Users\Stephen\Documents\Coding\python")
-#TheseFiles = os.listdir("c:\Users\Stephen\Documents\Coding\python")
-#print(TheseFiles)
-#print(TheseFiles[2])
+os.chdir(r"C:\Users\16028\OneDrive\Documents\02 Technical\Coding\python")
+TheseFiles = os.listdir(r"C:\Users\16028\OneDrive\Documents\02 Technical\Coding\python")
+print(TheseFiles)
+print(TheseFiles[2])
 for TheseNames in TheseFiles:
 	print(TheseNames)
 #print "After os.listdir"
@@ -45,6 +45,7 @@ exec(open('Second.py').read())
 # and write to another #
 ########################
 
+exit(0)
 InFile=open('datain.txt', 'r')
 # OutFile=open('dataout.txt', 'w')
 OutFile=open('dataout.txt', 'a')
