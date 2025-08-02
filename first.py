@@ -30,15 +30,17 @@ print("after  dir")
 print("Before os.listdir")
 #exit(0)
 import os
-os.chdir(r"C:\Users\16028\OneDrive\Documents\02 Technical\Coding\python")
-TheseFiles = os.listdir(r"C:\Users\16028\OneDrive\Documents\02 Technical\Coding\python")
+os.chdir(r"C:\Users\16028\PycharmProjects\spearson8872")
+TheseFiles = os.listdir(r"C:\Users\16028\PycharmProjects\spearson8872")
 print(TheseFiles)
 print(TheseFiles[2])
 for TheseNames in TheseFiles:
 	print(TheseNames)
-#print "After os.listdir"
+print( "After os.listdir")
 
 exec(open('Second.py').read())
+
+print( "After Second.py")
 
 ########################
 # Read from one file   #
