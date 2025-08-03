@@ -47,52 +47,53 @@ print( "After Second.py")
 # and write to another #
 ########################
 
-exit(0)
 InFile=open('datain.txt', 'r')
 # OutFile=open('dataout.txt', 'w')
 OutFile=open('dataout.txt', 'a')
 oneline=InFile.readline()
 OutFile.write(oneline)
 
-raw_input('Before Close - Press Enter to exit')
+print('Before Close - Press Enter to exit') # was input
+
 InFile.close()
 OutFile.close()
-raw_input('After Close - Press Enter to exit')
+print('After Close - Press Enter to exit') # was input
 
 print (oneline)
 
-raw_input('After display - Press Enter to exit')
+print('After display - Press Enter to exit') # was input
 
 #################################
 # read whole file into an array #
 #################################
 
-raw_input('Before open2 - Press Enter to exit')
+print('Before open2 - Press Enter to exit') # was input
 
 InFile=open('datain.txt', 'r')
 
-raw_input('Before full file read - Press Enter to exit')
+print('Before full file read - Press Enter to exit') # was input
 
 alllines=InFile.readlines()
 
-raw_input('Before full file display - Press Enter to exit')
+print('Before full file display - Press Enter to exit') # was input
 
 print(alllines)
 
-raw_input('Before full file sorted display - Press Enter to exit')
+print('Before full file sorted display - Press Enter to exit') # was input
 print(type(alllines))
 sortedlines=alllines
 alllines.sort()
 print(type(sortedlines))
 print(sortedlines)
 print("single item")
-print(PyList_GetItem(sortedlines,2))
+single_field = sortedlines[2]
+print(single_field)
 
 sortedlines=sorted(alllines)
 
-raw_input('Before Close - Press Enter to exit')
+print('Before Close - Press Enter to exit') # was input
 InFile.close()
-raw_input('After Close - Press Enter to exit')
+print('After Close - Press Enter to exit') # was input
 
 ########
 # Math #
@@ -117,4 +118,4 @@ print('xx')
 # by run from file explorer        #
 ####################################
 
-raw_input('Press Enter to exit')
+print('Press Enter to exit') # was input
