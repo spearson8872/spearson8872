@@ -37,6 +37,11 @@ print(TheseFiles[2])
 for TheseNames in TheseFiles:
     print(TheseNames)
 print( "After os.listdir")
+tempvar = "one"
+
+print(tempvar)
+
+print(tempvar)
 
 exec(open('Second.py').read())
 
