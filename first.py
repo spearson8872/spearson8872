@@ -35,7 +35,7 @@ TheseFiles = os.listdir(r"C:\Users\16028\PycharmProjects\spearson8872")
 print(TheseFiles)
 print(TheseFiles[2])
 for TheseNames in TheseFiles:
-	print(TheseNames)
+    print(TheseNames)
 print( "After os.listdir")
 
 exec(open('Second.py').read())
