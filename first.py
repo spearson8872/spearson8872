@@ -109,13 +109,13 @@ print(x * 8)                # String repetition
 ####################################
 
 for x in 'test':
-  print (x)
+    print (x)
 print('xx')
 
-####################################
-# Trick for windows. make this the #
-# last line of a script and it can #
-# by run from file explorer        #
-####################################
+#####################################
+# Trick for windows. make this the  #
+# last line of a script, and it can #
+# by run from file explorer         #
+#####################################
 
 print('Press Enter to exit') # was input
