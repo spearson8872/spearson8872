@@ -110,6 +110,7 @@ print(x * 8)                # String repetition
 
 for x in 'test':
     print (x)
+
 print('xx')
 
 #####################################
