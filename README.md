@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @spearson8872
 - 👀 I’m interested in administering large scale linux environments
-- 🌱 I’m currently learning Git and Python
+- 🌱 I’m currently learning AI, Git and Python
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me ... spearson8872@gmail.com
 
